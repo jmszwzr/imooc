@@ -1,0 +1,5 @@
+*.clas
+s
+bin/
+gen/
+.settings/
