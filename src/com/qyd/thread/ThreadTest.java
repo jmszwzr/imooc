@@ -1,4 +1,4 @@
-package com.qyd.thread.test;
+package com.qyd.thread;
 
 public class ThreadTest extends Thread{
 	/**

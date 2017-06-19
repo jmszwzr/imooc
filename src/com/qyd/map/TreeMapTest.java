@@ -1,4 +1,4 @@
-package com.qyd.map.test;
+package com.qyd.map;
 
 import java.util.ArrayList;
 import java.util.Collections;

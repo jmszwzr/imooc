@@ -1,4 +1,4 @@
-package com.qyd.thread.test;
+package com.qyd.thread;
 
 import java.util.ArrayList;
 import java.util.Date;
