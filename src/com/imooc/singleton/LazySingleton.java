@@ -2,8 +2,8 @@ package com.imooc.singleton;
 
 /*
  * 懒汉式模式
- * 在对象呗用到的时候创建
- * 特点：加载类时比较快，运行时获取对象比较忙，线程不安全
+ * 在对象被用到的时候创建
+ * 特点：加载类时比较快，运行时获取对象比较慢，线程不安全
  */
 public class LazySingleton {
 	
@@ -22,7 +22,7 @@ public class LazySingleton {
 		// 但是ThreadB也符合条件，此时实例均未创建，所以在多线程运行时
 		// 还是有可能创建多个实例的，和我们的需要相差
 		if(instance == null)
-		{
+		{ 
 			instance = new LazySingleton();
 		}
 		return instance;
